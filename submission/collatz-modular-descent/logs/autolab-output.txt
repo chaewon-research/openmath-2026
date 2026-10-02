@@ -1,0 +1,73 @@
+
+=== evaluation: alejandrozu/collatz-modular-descent @ 7414e19511b2 ===
+
+=== run ===
+
+collatz-modular-descent @ 7414e19511b2
+  submission   /home/codespace/.autolab/codespaces-b1bc44/nodes/openmath-codespace/projects/chaewon-research--collatz-modular-descent-v3-v4-evaluation/trees/351d2794
+  hash         sha256:35ffae420050…  exp/openmath-codespace/351d2794@57c1ad7
+  PASSED       coverage_ppm=1e+06 (max)  min_descent_ppm=525390 (max)  rule_count=512 (min)
+  config       certificate=accelerated-collatz-residue-descent*  target_family=private-odd-dyadic-residues*  mode=validation   (* = primary)
+  report       /home/codespace/.autolab/codespaces-b1bc44/nodes/openmath-codespace/projects/chaewon-research--collatz-modular-descent-v3-v4-evaluation/hills-home/runs/collatz-modular-descent/20260929T220906Z-58f7856f/report.json
+
+{
+  "hill": "collatz-modular-descent",
+  "tree_hash": "7414e19511b2b99954a3898beed545401b79a571",
+  "commit": "ad2b555cf91d7d4250bbdb6f94b30fac07e3d512",
+  "submission_hash": "sha256:35ffae42005041a099e5b742fb9a4996b3d3e7583621efd2fec4c822b43c1e28",
+  "submission_git": "exp/openmath-codespace/351d2794@57c1ad7",
+  "passed": true,
+  "config": [
+    {
+      "name": "certificate",
+      "value": "accelerated-collatz-residue-descent",
+      "primary": true
+    },
+    {
+      "name": "target_family",
+      "value": "private-odd-dyadic-residues",
+      "primary": true
+    },
+    {
+      "name": "mode",
+      "value": "validation",
+      "primary": false
+    }
+  ],
+  "metrics": [
+    {
+      "name": "coverage_ppm",
+      "value": 1000000,
+      "direction": "max"
+    },
+    {
+      "name": "min_descent_ppm",
+      "value": 525390,
+      "direction": "max"
+    },
+    {
+      "name": "rule_count",
+      "value": 512,
+      "direction": "min"
+    }
+  ],
+  "details": {
+    "rules_verified": 512,
+    "private_targets_scored": 20,
+    "covered_weight": 639,
+    "total_weight": 639
+  },
+  "params": {},
+  "final": false,
+  "official": true,
+  "official_reason": null,
+  "hill_spec_version": 2,
+  "tool": {
+    "version": "0.11.0",
+    "sha256": "970e4a3fcb74c27e0c56b62efd22b4fab82a755229a8aef8f90bbc00a9cfe275"
+  },
+  "timestamp": "2026-09-29T22:09:07Z",
+  "report_version": 1,
+  "signature": "hmac-sha256:136ac249095bcca22ff74ddfc1ab85d96f846968ba2109f24348991220ec26ae"
+}
+wrote /home/codespace/.autolab/codespaces-b1bc44/nodes/openmath-codespace/projects/chaewon-research--collatz-modular-descent-v3-v4-evaluation/tmp/job-logs/351d2794-d842-41a1-aa86-83e11fbca2fa/report.json

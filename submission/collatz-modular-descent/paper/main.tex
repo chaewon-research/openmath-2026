@@ -1,0 +1,171 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,booktabs}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\hypersetup{hidelinks,pdftitle={A Preserved Accelerated-Collatz Residue Descent Certificate: AutoLab Experiment 351d2794},pdfauthor={Chaewon Yoon}}
+\setlength{\emergencystretch}{3em}
+\newcommand{\file}[1]{\path{#1}}
+\title{A Preserved Accelerated-Collatz Residue Descent Certificate:\\AutoLab Experiment 351d2794}
+\author{Chaewon Yoon}
+\date{Technical report prepared for judge review\\Preserved evaluation: 29 September 2026}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This report documents the unchanged 512-rule certificate evaluated in AutoLab experiment 351d2794. Each rule certifies strict descent after a prescribed sequence of accelerated odd Collatz steps for an entire positive odd dyadic residue class. The original signed official validation report records coverage of 1,000,000 parts per million (ppm), minimum descent of 525,390 ppm, and 512 rules, with \texttt{final=false}. Public offline inspection verifies all rules and covers 3,352 of 3,968 target classes at powers 8--12; the certificate union consists of 1,765 odd residues modulo 4,096. Exact artifact bytes, immutable commit evidence, public checker code, and reproduction instructions accompany the report. This is not a proof of the Collatz conjecture. Competition final submission/acceptance receipt is not yet available, and this GitHub review packet is not evidence of an official final submission.
+\end{abstract}
+
+\section{Problem and setup}
+For a positive odd integer $n$, define the accelerated Collatz map
+\[
+ C(n)=\frac{3n+1}{2^{v_2(3n+1)}},
+\]
+where $v_2(m)$ is the exact exponent of 2 dividing a positive integer $m$.
+The organizer's public modular descent task asks for finite exact certificates of strict descent on whole congruence classes; it does not ask for a proof of the full conjecture~\cite{publichill}.
+A rule consists of $(k,r,[e_1,\ldots,e_s])$, with odd $0<r<2^k$ and positive integer exponents specifying the exact valuations along $s$ accelerated steps. The public submission schema allows at most 512 rules, $2\leq k\leq32$, $1\leq s\leq24$, and $1\leq e_i\leq32$. The preserved artifact is the sole authoritative rule list, \file{solution.json}.
+
+The local public target universe is
+\[
+ \mathcal T=\{(p,q):8\leq p\leq12,\ 0<q<2^p,\ q\text{ odd}\},
+ \qquad |\mathcal T|=3968.
+\]
+A target is covered when its entire class is a subclass of a certified rule: $p\geq k$ and $q\equiv r\pmod{2^k}$. This universe is defined mathematically from the public power range, not copied from a private split. Official validation instead uses a held-out weighted target collection; no target instances from that collection are supplied.
+
+\section{Certificate construction and descent statement}
+For a rule, set $E_0=0$, $E_i=\sum_{j=1}^i e_j$, and $B_0=0$. Compose the affine maps using
+\[
+ B_i=3B_{i-1}+2^{E_{i-1}},\qquad A=3^s,\quad B=B_s,\quad D=2^{E_s}.
+\]
+The checker requires the exact valuation sequence on the least positive representative $r$, the stability condition $k\geq E_s+1$, strict contraction $A<D$, and strict descent at the representative:
+\[
+ Ar+B<Dr.
+\]
+For every rule in the preserved artifact and every integer $t\geq0$, the certified statement is
+\[
+ n=r+2^kt\quad\Longrightarrow\quad C^s(n)=\frac{An+B}{D}<n.
+\]
+This is the descent statement already supported by the certificate and \file{RESULT.md}; no stronger theorem or formal proof artifact is asserted here.
+
+To explain why the finite checks suffice, before step $i$ the orbit difference from the representative is $3^{i-1}2^{k-E_{i-1}}t$. The step numerator therefore changes by a multiple of $2^{e_i+1}$ because $k\geq E_s+1$. The exact valuation remains $e_i$. Induction gives the affine expression, and
+\[
+ (D-A)n-B\geq(D-A)r-B>0
+\]
+proves descent for the entire class. Assumptions are positive integer arithmetic, normalized odd residues, the standard valuation definition, and the exact rule data. No unproved Collatz assumption or probabilistic model is used.
+
+Existing historical code enumerated valuation prefixes, checked candidate rules, and selected dyadic supports within the rule budget. The archived V3/V4 materials describe coverage and contraction tradeoffs. The frozen revision replaces the V4 rule $(8,113,[2])$ with $(5,17,[2])$, retaining 512 rules and broadening that rule's class support. Those files document prior construction, not a newly executed search. Historical optimization claims were not rerun; the staged-debug objective in \file{history/collatz-search/search_v4.py} prevents treating its broad description as an independently verified global optimality result.
+
+\section{Precise result for experiment 351d2794}
+The exact experiment identifier is
+\begin{quote}\small
+\url{351d2794-d842-41a1-aa86-83e11fbca2fa}.
+\end{quote}
+Its immutable submission commit is
+\begin{quote}\small
+\url{57c1ad7f2af78339260fcc4d8498a05dda4cfc77}.
+\end{quote}
+The full original signed report, \file{validation-report.json}, records \texttt{passed=true}, \texttt{official=true}, and \textbf{\texttt{final=false}}, timestamped \texttt{2026-09-29T22:09:07Z}~\cite{validationreport}.
+\begin{center}
+\begin{tabular}{lrl}
+\toprule
+Official validation metric & Value & Direction\\
+\midrule
+\texttt{coverage\_ppm} & 1000000 & maximize\\
+\texttt{min\_descent\_ppm} & 525390 & maximize\\
+\texttt{rule\_count} & 512 & minimize\\
+\bottomrule
+\end{tabular}
+\end{center}
+The report records 20 private targets, with covered and total weight both 639. Coverage is weighted private-validation coverage scaled to ppm. For each covered target, the public evaluator chooses the largest contraction margin $1-A/D$ among matching rules; minimum descent is the minimum of these target margins, floored to ppm. It is not the minimum over all submitted rules or the relative decrease at the least representative, since the affine map has a positive constant.
+
+There are three distinct statuses: (i) the preserved AutoLab experiment above; (ii) its signed validation report with \texttt{final=false}; and (iii) competition final submission/acceptance receipt, \textbf{not yet available}. No final/test score or competition acceptance is claimed. The GitHub packet is review material and does not constitute evidence of official final submission.
+
+\subsection{Exact covered residue classes}
+Offline inspection of the fixed certificate verifies all 512 rules. In this artifact $4\leq k\leq12$ and $s\leq6$. There is no upper bound on the integers within each certified class. Define
+\[
+ R=\{q:0<q<4096,\ q\text{ odd},\ \exists(k,r,\mathbf e)\text{ in the artifact},\ q\equiv r\pmod{2^k}\}.
+\]
+The exact union is
+\[
+ U=\{n\in\mathbb Z_{>0}: n\bmod4096\in R\},\qquad |R|=1765.
+\]
+The complete explicit list of $R$ is supplied in \file{local-check.json} at \file{finest_modulus_union.covered_residues}~\cite{offlineinspection}. Thus its density among odd residues is $1765/2048$, or $1765/4096$ among all integers; 283 odd residues modulo 4096 lie outside this certificate union.
+
+The public whole-class coverage counts, whose exact lists are in \file{local-check.json} at \file{public_classes}, are:
+\begin{center}
+\begin{tabular}{rrr}
+\toprule
+Power $p$ & Covered classes & All odd classes\\
+\midrule
+8 & 94 & 128\\
+9 & 203 & 256\\
+10 & 421 & 512\\
+11 & 869 & 1024\\
+12 & 1765 & 2048\\
+\midrule
+Total & 3352 & 3968\\
+\bottomrule
+\end{tabular}
+\end{center}
+The 616 remaining target classes fail the whole-class coverage criterion of this certificate. This count spans multiple resolutions and is not a density of integers. A coarser uncovered target can contain covered finer subclasses. No statement of non-descent is made about uncovered integers.
+
+\section{Comparison with existing baselines and local candidates}
+The following are public offline counts for unchanged archived inputs, verified using the supplied fixed-rule arithmetic. They are not additional AutoLab scores or experiments.
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+Certificate & Rules & Covered classes in $\mathcal T$\\
+\midrule
+Organizer public example & 2 & 992\\
+Earlier local candidate & 22 & 2883\\
+Local V2 & 107 & 3352\\
+Local V3 & 107 & 3352\\
+Local V4 & 512 & 3352\\
+Local V5-A & 512 & 3352\\
+Preserved 351d2794 & 512 & 3352\\
+\bottomrule
+\end{tabular}
+\end{center}
+The preserved result adds 2360 public classes beyond the organizer example and 469 beyond the earlier 22-rule candidate, losing none of either baseline's covered classes. Compared with V4, it retains public coverage and changes exactly the one rule specified above. The historical frozen-candidate note records a minimum validation margin change from 525300 to 525390 ppm over V4, but only the full signed report for 351d2794 is the primary official evidence in this packet. Public coverage alone does not establish equal private-target margins.
+
+The contribution is this particular inspectable rule collection and its recorded validation result, within the framework already supplied by the organizer. No invention of accelerated Collatz iteration, dyadic valuations, or affine composition is claimed. No literature priority or global optimality determination is established.
+
+\section{Verification and reproducibility}
+The standalone \file{check.py} enforces the preserved solution checksum, validates the schema with the original public loader, independently composes integer affine maps, verifies valuations, stability and descent, and cross-checks all contraction margins with the public rule verifier. \file{local-check.json} contains exact affine witnesses in submitted order, covered residues and baseline comparisons. The pinned offline replay is CPython 3.14.2 with no third-party dependencies, network, private files or AutoLab credentials.
+
+From the repository root:
+\begin{verbatim}
+cd submission/collatz-modular-descent
+sha256sum -c SHA256SUMS
+python3 check.py --output /tmp/collatz-local-check.json
+cmp local-check.json /tmp/collatz-local-check.json
+python3 test_check.py
+\end{verbatim}
+Expected results are all checksums valid, 512 rules passing, public coverage $3352/3968$, union $1765/2048$ among odd residues, an identical generated JSON file, and five passing rejection tests. The tests reject a wrong valuation, insufficient stability modulus, a noncontractive map, contraction without strict descent at 1, and duplicate JSON keys.
+
+The unchanged solution's SHA-256 is
+\begin{quote}\small
+\url{1e533cbd5dbb17bb6ad52c7c80faa3a6abce587a32204ef5228de54da5b069e6}.
+\end{quote}
+Original raw commit and tree objects under \file{evidence/} establish the commit-to-solution linkage via Git object hashes; full commands are in \file{REPRODUCE.md}. The report's submission bundle hash is distinct from the single-file SHA-256. A checksum manifest detects changes but is not an authenticity signature.
+
+The original signed report and job output are included unchanged. The HMAC-SHA256 report cannot be publicly authenticated without the organizer's signing verification context. Reproducing its weighted official metrics requires the original private split and frozen evaluator context, which are deliberately excluded. The offline check verifies the mathematical certificate, not private-score regeneration or report authorship.
+
+\section{Formalization status and limitations}
+\begin{quote}
+No Lean formalization was produced for this submission. Verification is provided by the supplied exact checker/certificate pipeline and the signed AutoLab validation report.
+\end{quote}
+The executable verification relies on the checker, schema loader and Python runtime; it is not a Lean kernel proof. The report does not cover every positive odd integer, establish arrival at 1 for every trajectory, exclude all nontrivial cycles, or exclude divergence. Repeated class descent does not complete an induction without handling the remaining classes. The fixed point 1 is not a strict descent case, and even integers are not directly in the stated odd-class result.
+
+\textbf{This is not a proof of the Collatz conjecture.} No new optimization or official evaluation was run to prepare the review packet or this report. The report is newly written documentation of existing artifacts, not a manuscript from the original experiment. Final/test evaluation, complete original execution-environment reconstruction, formalization and independent literature validation remain unavailable.
+
+\section{Provenance, AI and compute disclosure}
+The author and human entrant is Chaewon Yoon. Codex assisted with search, code generation, candidate construction and review preparation; AutoLab performed the recorded official evaluation. The signed report identifies hills version 0.11.0 and its tool SHA-256. The recorded compute was GitHub Codespaces, using AutoLab node \texttt{openmath-codespace}. The earlier provenance record reports entrant-confirmed account totals of \$4.69 in AutoLab model credits and \$0.00 rented compute spend to date; these are not audited costs for this experiment. Exact earlier Codex and AutoLab model versions, per-run usage, funding source, hardware allocation, duration and complete original runtime image are not established by the retained records. Review-time CPython 3.14.2 is not asserted to be the complete original official environment.
+
+Artifact bytes were compared with the frozen local candidate, immutable submission commit and tracked packet; the signed report was compared with original AutoLab job/run reports. Original logs retain workspace paths and public account/project names but no private target instances were found in the included output. Environment/evaluator run logs are empty. Credentials, tokens, signing keys, private targets, split files, node configuration and Busy Beaver work are excluded.
+
+The archived \file{history/collatz-search/coordinated-swap-scan.json} contains prose followed by JSON and is not valid JSON as a whole. It is explicitly documented and retained unchanged, not silently repaired. Historical files are evidence of prior local work, not instructions to rerun optimization. The packet and report remain pending review before commit or push.
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

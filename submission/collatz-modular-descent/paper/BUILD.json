@@ -1,0 +1,22 @@
+{
+  "scope": "review-time typesetting only; not an AutoLab evaluation",
+  "compiler": "Tectonic",
+  "compiler_version": "0.15.0",
+  "compiler_archive_source": "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.15.0/tectonic-0.15.0-x86_64-unknown-linux-musl.tar.gz",
+  "compiler_archive_sha256": "dfb82876f2986862996e564fa507a9e576e0c1e3bee63c2c1bd677c2543e6407",
+  "compiler_binary_sha256": "4df19452c202c5bef9f7c7e4a01a3f2b9d5199f0a1f73b70b4fe1bffbc9837f6",
+  "requested_resource_bundle": "https://relay.fullyjustified.net/default_bundle_v33.tar",
+  "resolved_resource_bundle": "https://data1b.fullyjustified.net/tlextras-2022.0r0.tar",
+  "resource_bundle_cache_identity": "6ffe055852f8faf66c0acbe1a7fb27f87b869a90bad1204f3bf4d9683f597c7c",
+  "command": "tectonic --only-cached --untrusted --reruns 2 --keep-logs --keep-intermediates main.tex",
+  "pages": 5,
+  "source_sha256": "0a013ccd0a598e45daf9dff54d170e8fb709813d89cf09f879e8eaabcee63e3f",
+  "bibliography_sha256": "242b1f8c993e748a011c16d15beb4e256d128324b2a12bbdfcc17a32fe16c6f5",
+  "pdf_sha256": "518f0b1cefff545513d2f976753d7ff6aa169e65afce4f04c35b0b05803ee037",
+  "latex_warnings": [],
+  "bibtex_warnings": [],
+  "pdf_inspection_library": "PyMuPDF 1.26.5 (review-only; not required by certificate checker)",
+  "inspection": "All five rendered pages inspected; no clipped text, unresolved citations or embedded attachments found",
+  "pdf_creation_metadata": "D:20261002151544-00'00'",
+  "bitwise_pdf_rebuild_guaranteed": false
+}

@@ -1,55 +1,44 @@
-# Preserved accelerated-Collatz descent certificate
+# Collatz judge review packet — experiment 351d2794
 
-## Identity and status
+Author: **Chaewon Yoon**. This packet preserves a finite accelerated-Collatz residue descent certificate. **It is not a proof of the full Collatz conjecture.**
 
-- Human entrant: Chaewon Yoon.
-- Target/hill: `alejandrozu/collatz-modular-descent`.
-- AutoLab climb: `chaewon-research/collatz-modular-descent-v3-v4-evaluation`.
-- Climb URL: https://app.autolab.ai/projects/chaewon-research/collatz-modular-descent-v3-v4-evaluation
-- Experiment ID: `351d2794-d842-41a1-aa86-83e11fbca2fa` (short ID: `351d2794`).
-- Immutable submission commit: `57c1ad7f2af78339260fcc4d8498a05dda4cfc77`.
-- Evaluated hill tree hash: `7414e19511b2b99954a3898beed545401b79a571`.
-- Evaluator report timestamp: `2026-09-29T22:09:07Z`.
-- `solution.json` SHA-256: `1e533cbd5dbb17bb6ad52c7c80faa3a6abce587a32204ef5228de54da5b069e6`.
+The exact submitted `solution.json` contains 512 rules. AutoLab experiment `351d2794-d842-41a1-aa86-83e11fbca2fa` evaluated immutable submission commit `57c1ad7f2af78339260fcc4d8498a05dda4cfc77` on 2026-09-29. The full original signed report is [validation-report.json](validation-report.json).
 
-The existing official, passing report is a **validation** evaluation (`final=false`):
-
-| Metric | Exact value | Direction |
+| Official validation metric | Value | Direction |
 | --- | ---: | --- |
-| coverage_ppm | 1000000 | max |
-| min_descent_ppm | 525390 | max |
-| rule_count | 512 | min |
+| coverage_ppm | 1000000 | maximize |
+| min_descent_ppm | 525390 | maximize |
+| rule_count | 512 | minimize |
 
-No final/test score is claimed. This packet has not been submitted or published.
+The report records `passed=true`, `official=true`, **`final=false`**. Coverage is weighted private-validation coverage, with 639/639 weight across 20 targets. Minimum descent is the minimum, across covered targets, of the best matching rule's affine contraction margin, floored to ppm. Neither number is a claim about every odd integer. No final/test result or competition acceptance is established.
 
-## Mathematical artifact
+## Inspect and replay
 
-The 512 rules certify strict descent for specified odd dyadic residue classes under accelerated Collatz steps, `C(n) = (3n + 1) / 2^v2(3n + 1)`. Each rule prescribes a stable valuation sequence for its entire residue class. The evaluator composes the resulting affine map and checks strict contraction and descent. Coverage and the weakest descent margin are measured against the hill's held-out validation targets. This finite collection of descent lemmas does not prove the Collatz conjecture.
-
-`solution.json` is copied byte for byte from the preserved candidate and independently compared with the file stored in the immutable AutoLab commit. The JSON mathematics has not been edited.
-
-## Reproduction and checking
-
-From the repository root, check the packaged file checksum:
+From the repository root:
 
 ```sh
-sha256sum submission/collatz-modular-descent/solution.json
+cd submission/collatz-modular-descent
+sha256sum -c SHA256SUMS
+python3 check.py --output /tmp/collatz-local-check.json
+cmp local-check.json /tmp/collatz-local-check.json
 ```
 
-The expected digest is the SHA-256 above. To inspect the existing evaluation without starting a run, use the linked AutoLab workspace:
+Use CPython 3.14.2 for the pinned replay. No third-party packages, network, credentials, AutoLab client, or private split are required. See [REPRODUCE.md](REPRODUCE.md) for expected outputs and Git object verification.
 
-```sh
-cd collatz-modular-descent-v3-v4-evaluation
-autolab logs 351d2794
-```
+## Contents
 
-`validation-report.json` preserves the existing report JSON and its HMAC signature without editing its fields. A signature is not an access token. Independent signature verification requires the signing node's verification context; this packet supplies no signing secret. The report's `submission_hash` is the evaluator's submission hash, distinct from the SHA-256 of the single solution file.
+- [RESULT.md](RESULT.md): exact theorem, assumptions, covered set, baseline comparison, limitations.
+- [NOVELTY.md](NOVELTY.md): contribution and conservative novelty statement.
+- [PROVENANCE.md](PROVENANCE.md), [identity.json](identity.json), `IMMUTABLE_COMMIT.txt`: identities and disclosures.
+- `solution.json`: unchanged certificate; `check.py`: offline checker; `local-check.json`: exact derived affine witnesses and residue lists.
+- `evidence/commit.raw`, `evidence/tree.raw`: original Git objects linking the immutable commit to the solution blob.
+- `validation-report.json`, `logs/`: signed report and original AutoLab output; two original run logs are empty. [Log privacy label](logs/README.md) identifies the retained paths/public project names and report aggregates.
+- `public-hill/`: original public evaluator, task description, project configuration and lockfile; no private targets.
+- `history/`: existing search sources, candidates, reports, and both baseline certificates. These are historical evidence, not instructions to run optimization. See [INVENTORY.md](INVENTORY.md) for caveats.
+- `ENVIRONMENT.json`, `.python-version`, `SHA256SUMS`: replay pin and checksums.
 
-Authorized organizers or the hill owner, with the exact frozen hill version and its private evaluation data installed, can use the supported hills evaluator:
+The newly written [technical report](paper/README.md) supplies editable [LaTeX source](paper/main.tex) and a repository-only [bibliography](paper/references.bib). The [five-page PDF](paper/main.pdf) compiled successfully; see [PAPER_STATUS.md](PAPER_STATUS.md) for build details. No original experiment-era paper or Lean files were found. Busy Beaver material is outside this packet.
 
-```sh
-hills eval <solution-only-directory> -H collatz-modular-descent -o validation-report.json
-hills eval <solution-only-directory> -H collatz-modular-descent --final -o final-report.json
-```
+No Lean formalization was produced for this submission. Verification is provided by the supplied exact checker/certificate pipeline and the signed AutoLab validation report.
 
-Here `<solution-only-directory>` must contain exactly the supplied `solution.json`; use a separate temporary directory and keep reports outside it. The packet directory also contains documentation and report JSON, so it is not itself the evaluator input directory. The final command is for authorized organizer/owner use with the private test split; it has not been run. Non-owners with only public hill files cannot reproduce official private-split scoring locally. No verified platform-side final/test action is asserted here.
+Competition final submission/acceptance receipt is **not yet available**. This GitHub packet is for judge review and does not constitute evidence of official competition final submission.

@@ -1,0 +1,4534 @@
+{
+  "rules": [
+    {
+      "modulus_power": 4,
+      "residue": 9,
+      "exponents": [
+        2
+      ]
+    },
+    {
+      "modulus_power": 4,
+      "residue": 13,
+      "exponents": [
+        3
+      ]
+    },
+    {
+      "modulus_power": 5,
+      "residue": 5,
+      "exponents": [
+        4
+      ]
+    },
+    {
+      "modulus_power": 5,
+      "residue": 17,
+      "exponents": [
+        2
+      ]
+    },
+    {
+      "modulus_power": 5,
+      "residue": 19,
+      "exponents": [
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 6,
+      "residue": 3,
+      "exponents": [
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 6,
+      "residue": 33,
+      "exponents": [
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 6,
+      "residue": 43,
+      "exponents": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 6,
+      "residue": 53,
+      "exponents": [
+        5
+      ]
+    },
+    {
+      "modulus_power": 6,
+      "residue": 55,
+      "exponents": [
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 7,
+      "residue": 11,
+      "exponents": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 7,
+      "residue": 21,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 7,
+      "residue": 35,
+      "exponents": [
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 7,
+      "residue": 65,
+      "exponents": [
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 7,
+      "residue": 87,
+      "exponents": [
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 8,
+      "residue": 7,
+      "exponents": [
+        1,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 8,
+      "residue": 23,
+      "exponents": [
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 8,
+      "residue": 99,
+      "exponents": [
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 8,
+      "residue": 129,
+      "exponents": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 8,
+      "residue": 143,
+      "exponents": [
+        1,
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 8,
+      "residue": 187,
+      "exponents": [
+        1,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 8,
+      "residue": 203,
+      "exponents": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 8,
+      "residue": 213,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 15,
+      "exponents": [
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 59,
+      "exponents": [
+        1,
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 85,
+      "exponents": [
+        8
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 95,
+      "exponents": [
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 135,
+      "exponents": [
+        1,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 175,
+      "exponents": [
+        1,
+        1,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 219,
+      "exponents": [
+        1,
+        2,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 257,
+      "exponents": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 295,
+      "exponents": [
+        1,
+        1,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 331,
+      "exponents": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 335,
+      "exponents": [
+        1,
+        1,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 379,
+      "exponents": [
+        1,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 407,
+      "exponents": [
+        1,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 455,
+      "exponents": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 483,
+      "exponents": [
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 39,
+      "exponents": [
+        1,
+        1,
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 123,
+      "exponents": [
+        1,
+        2,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 199,
+      "exponents": [
+        1,
+        1,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 271,
+      "exponents": [
+        1,
+        1,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 351,
+      "exponents": [
+        1,
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 431,
+      "exponents": [
+        1,
+        1,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 513,
+      "exponents": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 587,
+      "exponents": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 591,
+      "exponents": [
+        1,
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 663,
+      "exponents": [
+        1,
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 739,
+      "exponents": [
+        1,
+        8
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 827,
+      "exponents": [
+        1,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 853,
+      "exponents": [
+        9
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 903,
+      "exponents": [
+        1,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 987,
+      "exponents": [
+        1,
+        2,
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 79,
+      "exponents": [
+        1,
+        1,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 287,
+      "exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 315,
+      "exponents": [
+        1,
+        2,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 341,
+      "exponents": [
+        10
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 391,
+      "exponents": [
+        1,
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 475,
+      "exponents": [
+        1,
+        2,
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 551,
+      "exponents": [
+        1,
+        1,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 635,
+      "exponents": [
+        1,
+        2,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 711,
+      "exponents": [
+        1,
+        1,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 815,
+      "exponents": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 863,
+      "exponents": [
+        1,
+        1,
+        1,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 975,
+      "exponents": [
+        1,
+        1,
+        1,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1025,
+      "exponents": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1099,
+      "exponents": [
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1175,
+      "exponents": [
+        1,
+        1,
+        8
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1251,
+      "exponents": [
+        1,
+        9
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1371,
+      "exponents": [
+        1,
+        2,
+        1,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1391,
+      "exponents": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1447,
+      "exponents": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1531,
+      "exponents": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1599,
+      "exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1607,
+      "exponents": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1759,
+      "exponents": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1807,
+      "exponents": [
+        1,
+        1,
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1947,
+      "exponents": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1967,
+      "exponents": [
+        1,
+        1,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 2023,
+      "exponents": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 75,
+      "exponents": [
+        1,
+        2,
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 227,
+      "exponents": [
+        1,
+        10
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 367,
+      "exponents": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 423,
+      "exponents": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 507,
+      "exponents": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 575,
+      "exponents": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 783,
+      "exponents": [
+        1,
+        1,
+        1,
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 923,
+      "exponents": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1103,
+      "exponents": [
+        1,
+        1,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1311,
+      "exponents": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1339,
+      "exponents": [
+        1,
+        2,
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1575,
+      "exponents": [
+        1,
+        1,
+        2,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1659,
+      "exponents": [
+        1,
+        2,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1839,
+      "exponents": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2049,
+      "exponents": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2199,
+      "exponents": [
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2395,
+      "exponents": [
+        1,
+        2,
+        1,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2631,
+      "exponents": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2783,
+      "exponents": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2991,
+      "exponents": [
+        1,
+        1,
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3047,
+      "exponents": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3413,
+      "exponents": [
+        11
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3463,
+      "exponents": [
+        1,
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3547,
+      "exponents": [
+        1,
+        2,
+        1,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3783,
+      "exponents": [
+        1,
+        1,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3935,
+      "exponents": [
+        1,
+        1,
+        1,
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 4047,
+      "exponents": [
+        1,
+        1,
+        1,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 341,
+      "exponents": [
+        10
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2389,
+      "exponents": [
+        10
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 213,
+      "exponents": [
+        7,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1109,
+      "exponents": [
+        8,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1137,
+      "exponents": [
+        2,
+        9
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1589,
+      "exponents": [
+        5,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2501,
+      "exponents": [
+        4,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2901,
+      "exponents": [
+        9,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2957,
+      "exponents": [
+        3,
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3861,
+      "exponents": [
+        6,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 853,
+      "exponents": [
+        9
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1877,
+      "exponents": [
+        9
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 853,
+      "exponents": [
+        9
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1877,
+      "exponents": [
+        9
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3925,
+      "exponents": [
+        9
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 85,
+      "exponents": [
+        8,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 113,
+      "exponents": [
+        2,
+        8
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 565,
+      "exponents": [
+        5,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 789,
+      "exponents": [
+        6,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1237,
+      "exponents": [
+        7,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1477,
+      "exponents": [
+        4,
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1933,
+      "exponents": [
+        3,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 85,
+      "exponents": [
+        8,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 113,
+      "exponents": [
+        2,
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 565,
+      "exponents": [
+        5,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 789,
+      "exponents": [
+        6,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1237,
+      "exponents": [
+        7,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1251,
+      "exponents": [
+        1,
+        9
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1477,
+      "exponents": [
+        4,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1933,
+      "exponents": [
+        3,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2133,
+      "exponents": [
+        8,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2161,
+      "exponents": [
+        2,
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2613,
+      "exponents": [
+        5,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2837,
+      "exponents": [
+        6,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3285,
+      "exponents": [
+        7,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3299,
+      "exponents": [
+        1,
+        9
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3525,
+      "exponents": [
+        4,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3981,
+      "exponents": [
+        3,
+        7
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 85,
+      "exponents": [
+        8
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 597,
+      "exponents": [
+        8
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 597,
+      "exponents": [
+        8
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1109,
+      "exponents": [
+        8
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1621,
+      "exponents": [
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 597,
+      "exponents": [
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1621,
+      "exponents": [
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2645,
+      "exponents": [
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3157,
+      "exponents": [
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3669,
+      "exponents": [
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 53,
+      "exponents": [
+        5,
+        4,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 69,
+      "exponents": [
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 369,
+      "exponents": [
+        2,
+        6,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 373,
+      "exponents": [
+        5,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 525,
+      "exponents": [
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 529,
+      "exponents": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 821,
+      "exponents": [
+        5,
+        3,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 833,
+      "exponents": [
+        2,
+        2,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 965,
+      "exponents": [
+        4,
+        5,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 985,
+      "exponents": [
+        2,
+        1,
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1285,
+      "exponents": [
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1421,
+      "exponents": [
+        3,
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1429,
+      "exponents": [
+        6,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1733,
+      "exponents": [
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1741,
+      "exponents": [
+        3,
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1891,
+      "exponents": [
+        1,
+        6,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1893,
+      "exponents": [
+        4,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2189,
+      "exponents": [
+        3,
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2325,
+      "exponents": [
+        6,
+        3,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2349,
+      "exponents": [
+        3,
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2653,
+      "exponents": [
+        3,
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2773,
+      "exponents": [
+        7,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2787,
+      "exponents": [
+        1,
+        8,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2801,
+      "exponents": [
+        2,
+        5,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3093,
+      "exponents": [
+        6,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3107,
+      "exponents": [
+        1,
+        5,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3253,
+      "exponents": [
+        5,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3541,
+      "exponents": [
+        7,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3555,
+      "exponents": [
+        1,
+        7,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3697,
+      "exponents": [
+        2,
+        7,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3715,
+      "exponents": [
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 4017,
+      "exponents": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 4019,
+      "exponents": [
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 53,
+      "exponents": [
+        5,
+        4
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 277,
+      "exponents": [
+        6,
+        3
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 397,
+      "exponents": [
+        3,
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 625,
+      "exponents": [
+        2,
+        7
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 725,
+      "exponents": [
+        7,
+        2
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 965,
+      "exponents": [
+        4,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 53,
+      "exponents": [
+        5,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 277,
+      "exponents": [
+        6,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 397,
+      "exponents": [
+        3,
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 625,
+      "exponents": [
+        2,
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 725,
+      "exponents": [
+        7,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 739,
+      "exponents": [
+        1,
+        8
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 965,
+      "exponents": [
+        4,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1077,
+      "exponents": [
+        5,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1301,
+      "exponents": [
+        6,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1421,
+      "exponents": [
+        3,
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1649,
+      "exponents": [
+        2,
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1749,
+      "exponents": [
+        7,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1763,
+      "exponents": [
+        1,
+        8
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1989,
+      "exponents": [
+        4,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 277,
+      "exponents": [
+        6,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 397,
+      "exponents": [
+        3,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 625,
+      "exponents": [
+        2,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 725,
+      "exponents": [
+        7,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 739,
+      "exponents": [
+        1,
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1077,
+      "exponents": [
+        5,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1301,
+      "exponents": [
+        6,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1649,
+      "exponents": [
+        2,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1749,
+      "exponents": [
+        7,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1763,
+      "exponents": [
+        1,
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1989,
+      "exponents": [
+        4,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2101,
+      "exponents": [
+        5,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2445,
+      "exponents": [
+        3,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2673,
+      "exponents": [
+        2,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3013,
+      "exponents": [
+        4,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3125,
+      "exponents": [
+        5,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3349,
+      "exponents": [
+        6,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3469,
+      "exponents": [
+        3,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3797,
+      "exponents": [
+        7,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3811,
+      "exponents": [
+        1,
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 4037,
+      "exponents": [
+        4,
+        5
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 213,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 469,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 213,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 469,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 981,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 213,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 469,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 981,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1493,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 2005,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 469,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 981,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1493,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2005,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2261,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2517,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3029,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 4053,
+      "exponents": [
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 21,
+      "exponents": [
+        6,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 35,
+      "exponents": [
+        1,
+        5,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 181,
+      "exponents": [
+        5,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 261,
+      "exponents": [
+        4,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 405,
+      "exponents": [
+        6,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 483,
+      "exponents": [
+        1,
+        7,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 643,
+      "exponents": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 709,
+      "exponents": [
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 717,
+      "exponents": [
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 867,
+      "exponents": [
+        1,
+        6,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 869,
+      "exponents": [
+        4,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 945,
+      "exponents": [
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 947,
+      "exponents": [
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1093,
+      "exponents": [
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1165,
+      "exponents": [
+        3,
+        5,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1325,
+      "exponents": [
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1393,
+      "exponents": [
+        2,
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1397,
+      "exponents": [
+        5,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1549,
+      "exponents": [
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1553,
+      "exponents": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1629,
+      "exponents": [
+        3,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1777,
+      "exponents": [
+        2,
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1845,
+      "exponents": [
+        5,
+        3,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1857,
+      "exponents": [
+        2,
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 2009,
+      "exponents": [
+        2,
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 21,
+      "exponents": [
+        6,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 35,
+      "exponents": [
+        1,
+        5,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 181,
+      "exponents": [
+        5,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 261,
+      "exponents": [
+        4,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 405,
+      "exponents": [
+        6,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 483,
+      "exponents": [
+        1,
+        7,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 643,
+      "exponents": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 709,
+      "exponents": [
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 717,
+      "exponents": [
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 867,
+      "exponents": [
+        1,
+        6,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 869,
+      "exponents": [
+        4,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 945,
+      "exponents": [
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 947,
+      "exponents": [
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1093,
+      "exponents": [
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1099,
+      "exponents": [
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1165,
+      "exponents": [
+        3,
+        5,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1175,
+      "exponents": [
+        1,
+        1,
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1325,
+      "exponents": [
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1393,
+      "exponents": [
+        2,
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1397,
+      "exponents": [
+        5,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1549,
+      "exponents": [
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1553,
+      "exponents": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1629,
+      "exponents": [
+        3,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1777,
+      "exponents": [
+        2,
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1845,
+      "exponents": [
+        5,
+        3,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1857,
+      "exponents": [
+        2,
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2009,
+      "exponents": [
+        2,
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2069,
+      "exponents": [
+        6,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2083,
+      "exponents": [
+        1,
+        5,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2229,
+      "exponents": [
+        5,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2309,
+      "exponents": [
+        4,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2453,
+      "exponents": [
+        6,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2531,
+      "exponents": [
+        1,
+        7,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2691,
+      "exponents": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2757,
+      "exponents": [
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2765,
+      "exponents": [
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2915,
+      "exponents": [
+        1,
+        6,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2917,
+      "exponents": [
+        4,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2993,
+      "exponents": [
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2995,
+      "exponents": [
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3141,
+      "exponents": [
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3147,
+      "exponents": [
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3213,
+      "exponents": [
+        3,
+        5,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3223,
+      "exponents": [
+        1,
+        1,
+        8
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3373,
+      "exponents": [
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3441,
+      "exponents": [
+        2,
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3445,
+      "exponents": [
+        5,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3597,
+      "exponents": [
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3601,
+      "exponents": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3677,
+      "exponents": [
+        3,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3825,
+      "exponents": [
+        2,
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3893,
+      "exponents": [
+        5,
+        3,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3905,
+      "exponents": [
+        2,
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 4057,
+      "exponents": [
+        2,
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 21,
+      "exponents": [
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 141,
+      "exponents": [
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 197,
+      "exponents": [
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 309,
+      "exponents": [
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 369,
+      "exponents": [
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 21,
+      "exponents": [
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 141,
+      "exponents": [
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 197,
+      "exponents": [
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 309,
+      "exponents": [
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 369,
+      "exponents": [
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 483,
+      "exponents": [
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 533,
+      "exponents": [
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 653,
+      "exponents": [
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 709,
+      "exponents": [
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 821,
+      "exponents": [
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 881,
+      "exponents": [
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 995,
+      "exponents": [
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 141,
+      "exponents": [
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 197,
+      "exponents": [
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 309,
+      "exponents": [
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 369,
+      "exponents": [
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 533,
+      "exponents": [
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 653,
+      "exponents": [
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 821,
+      "exponents": [
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 881,
+      "exponents": [
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 995,
+      "exponents": [
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1045,
+      "exponents": [
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1221,
+      "exponents": [
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1333,
+      "exponents": [
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1507,
+      "exponents": [
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1557,
+      "exponents": [
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1677,
+      "exponents": [
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1733,
+      "exponents": [
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1905,
+      "exponents": [
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 2019,
+      "exponents": [
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 141,
+      "exponents": [
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 197,
+      "exponents": [
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 309,
+      "exponents": [
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 533,
+      "exponents": [
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 653,
+      "exponents": [
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 881,
+      "exponents": [
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 995,
+      "exponents": [
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1045,
+      "exponents": [
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1221,
+      "exponents": [
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1333,
+      "exponents": [
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1507,
+      "exponents": [
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1557,
+      "exponents": [
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1677,
+      "exponents": [
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1905,
+      "exponents": [
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2019,
+      "exponents": [
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2245,
+      "exponents": [
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2357,
+      "exponents": [
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2417,
+      "exponents": [
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2581,
+      "exponents": [
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2701,
+      "exponents": [
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2869,
+      "exponents": [
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2929,
+      "exponents": [
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3043,
+      "exponents": [
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3269,
+      "exponents": [
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3381,
+      "exponents": [
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3605,
+      "exponents": [
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3725,
+      "exponents": [
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3781,
+      "exponents": [
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3953,
+      "exponents": [
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 4067,
+      "exponents": [
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 13,
+      "exponents": [
+        3,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 17,
+      "exponents": [
+        2,
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 23,
+      "exponents": [
+        1,
+        1,
+        5,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 117,
+      "exponents": [
+        5,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 173,
+      "exponents": [
+        3,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 269,
+      "exponents": [
+        3,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 273,
+      "exponents": [
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 321,
+      "exponents": [
+        2,
+        2,
+        5,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 473,
+      "exponents": [
+        2,
+        1,
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 477,
+      "exponents": [
+        3,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 577,
+      "exponents": [
+        2,
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 579,
+      "exponents": [
+        1,
+        4,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 631,
+      "exponents": [
+        1,
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 729,
+      "exponents": [
+        2,
+        1,
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 773,
+      "exponents": [
+        4,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 883,
+      "exponents": [
+        1,
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 917,
+      "exponents": [
+        6,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 931,
+      "exponents": [
+        1,
+        5,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1029,
+      "exponents": [
+        4,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1035,
+      "exponents": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1085,
+      "exponents": [
+        3,
+        1,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1173,
+      "exponents": [
+        6,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1229,
+      "exponents": [
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1379,
+      "exponents": [
+        1,
+        6,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1381,
+      "exponents": [
+        4,
+        1,
+        4,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1485,
+      "exponents": [
+        3,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1489,
+      "exponents": [
+        2,
+        3,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1539,
+      "exponents": [
+        1,
+        4,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1635,
+      "exponents": [
+        1,
+        6,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1637,
+      "exponents": [
+        4,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1687,
+      "exponents": [
+        1,
+        1,
+        7,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1793,
+      "exponents": [
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1837,
+      "exponents": [
+        3,
+        2,
+        4,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1841,
+      "exponents": [
+        2,
+        4,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1843,
+      "exponents": [
+        1,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1943,
+      "exponents": [
+        1,
+        1,
+        6,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1945,
+      "exponents": [
+        2,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1995,
+      "exponents": [
+        1,
+        2,
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2093,
+      "exponents": [
+        3,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2141,
+      "exponents": [
+        3,
+        1,
+        5,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2249,
+      "exponents": [
+        2,
+        1,
+        1,
+        7
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2289,
+      "exponents": [
+        2,
+        5,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2293,
+      "exponents": [
+        5,
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2397,
+      "exponents": [
+        3,
+        1,
+        4,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2449,
+      "exponents": [
+        2,
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2451,
+      "exponents": [
+        1,
+        3,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2545,
+      "exponents": [
+        2,
+        5,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2595,
+      "exponents": [
+        1,
+        5,
+        3,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2603,
+      "exponents": [
+        1,
+        2,
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2741,
+      "exponents": [
+        5,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2753,
+      "exponents": [
+        2,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2851,
+      "exponents": [
+        1,
+        5,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2853,
+      "exponents": [
+        4,
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2905,
+      "exponents": [
+        2,
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2997,
+      "exponents": [
+        5,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3159,
+      "exponents": [
+        1,
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3203,
+      "exponents": [
+        1,
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3205,
+      "exponents": [
+        4,
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3309,
+      "exponents": [
+        3,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3361,
+      "exponents": [
+        2,
+        2,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3459,
+      "exponents": [
+        1,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3505,
+      "exponents": [
+        2,
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3507,
+      "exponents": [
+        1,
+        3,
+        5,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3513,
+      "exponents": [
+        2,
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3613,
+      "exponents": [
+        3,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3653,
+      "exponents": [
+        4,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3659,
+      "exponents": [
+        1,
+        2,
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3661,
+      "exponents": [
+        3,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3761,
+      "exponents": [
+        2,
+        4,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3763,
+      "exponents": [
+        1,
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3813,
+      "exponents": [
+        4,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3909,
+      "exponents": [
+        4,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3915,
+      "exponents": [
+        1,
+        2,
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3957,
+      "exponents": [
+        5,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "modulus_power": 8,
+      "residue": 21,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 8,
+      "residue": 149,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 149,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 277,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 9,
+      "residue": 405,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 149,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 405,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 661,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 789,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 917,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 149,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 661,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 917,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1173,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1429,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1685,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1813,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 11,
+      "residue": 1941,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 149,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 661,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1685,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1813,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 1941,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2197,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2709,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 2965,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3221,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3477,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3733,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 12,
+      "residue": 3989,
+      "exponents": [
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 13,
+      "exponents": [
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 17,
+      "exponents": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 93,
+      "exponents": [
+        3,
+        1,
+        5
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 131,
+      "exponents": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 205,
+      "exponents": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 241,
+      "exponents": [
+        2,
+        5,
+        2
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 321,
+      "exponents": [
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 355,
+      "exponents": [
+        1,
+        6,
+        2
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 357,
+      "exponents": [
+        4,
+        1,
+        4
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 433,
+      "exponents": [
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 435,
+      "exponents": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 473,
+      "exponents": [
+        2,
+        1,
+        6
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 547,
+      "exponents": [
+        1,
+        5,
+        3
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 581,
+      "exponents": [
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 693,
+      "exponents": [
+        5,
+        2,
+        2
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 773,
+      "exponents": [
+        4,
+        2,
+        3
+      ]
+    },
+    {
+      "modulus_power": 10,
+      "residue": 813,
+      "exponents": [
+        3,
+        2,
+        4
+      ]
+    }
+  ]
+}

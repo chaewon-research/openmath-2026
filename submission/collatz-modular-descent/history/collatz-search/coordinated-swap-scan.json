@@ -1,0 +1,21 @@
+Treat experiment 351d2794 as the final candidate for now.
+Do not run additional optimization experiments.
+1. Preserve the exact candidate artifact and record its AutoLab experiment ID/commit.
+2. Verify that the exact solution corresponding to 351d2794 is recoverable byte-for-byte.
+3. Produce a concise technical summary of:
+   - the accelerated-Collatz certificate construction,
+   - how the 512 rules were selected,
+   - official validation metrics,
+   - the controlled ablations performed,
+   - the exhaustive one-rule and coordinated-swap searches,
+   - and why further validation tuning was stopped.
+4. Check the current AutoLab/OpenMath instructions for how the final/test split or competition submission is triggered for this hill.
+5. Do not trigger final evaluation, leaderboard publication, or any irreversible submission yet.
+6. Report the exact command/UI action required for the final competition submission and whether it can be done more than once.
+Stop after reporting that information.{
+  "baseline": "351d2794",
+  "candidate_count": 3202,
+  "pair_count_with_deficit": 130816,
+  "surviving_count": 0,
+  "top10": []
+}

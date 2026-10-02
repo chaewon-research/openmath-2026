@@ -1,0 +1,35 @@
+{
+  "enumerated_rules": 10641,
+  "rules": 512,
+  "coverage": "3352/3968",
+  "coverable_targets": 3352,
+  "global_minimum_margin": {
+    "numerator": 13,
+    "denominator": 256,
+    "ppm_floor": 50781
+  },
+  "global_minimum_margin_ppm": 50781,
+  "targets_at_individual_optimum": 3084,
+  "maximum_regret": {
+    "numerator": 45,
+    "denominator": 1024,
+    "ppm": 43945
+  },
+  "mean_regret": 0.0019556013667213603,
+  "mean_regret_exact": {
+    "numerator": 13425,
+    "denominator": 6864896
+  },
+  "all_individual_optima_within_512": false,
+  "minimum_rules_for_all_individual_optima": 649,
+  "final_rule_count_after_exact_redundancy_removal": 512,
+  "worst_regret_optimum": {
+    "numerator": 45,
+    "denominator": 1024,
+    "ppm": 43945
+  },
+  "verification": "all 10,641 generated rules and every written V4 rule were independently verified against eval.py; coverage and every V3 margin were rechecked",
+  "v3_margin_vector_preserved": true,
+  "uncoverable_classes": "the same exact 616 classes listed in best-v3/search-report.json; no valid rule exists at any allowed prefix",
+  "selection_method": "exact tree dynamic program with positional-integer lexicographic regret objective, followed by exact deletion redundancy pass"
+}

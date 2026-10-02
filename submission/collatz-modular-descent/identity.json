@@ -1,0 +1,16 @@
+{
+  "author": "Chaewon Yoon",
+  "experiment_id": "351d2794-d842-41a1-aa86-83e11fbca2fa",
+  "experiment_short_id": "351d2794",
+  "project": "chaewon-research/collatz-modular-descent-v3-v4-evaluation",
+  "hill": "alejandrozu/collatz-modular-descent",
+  "immutable_submission_commit": "57c1ad7f2af78339260fcc4d8498a05dda4cfc77",
+  "submission_git": "exp/openmath-codespace/351d2794@57c1ad7",
+  "submission_hash": "sha256:35ffae42005041a099e5b742fb9a4996b3d3e7583621efd2fec4c822b43c1e28",
+  "hill_tree_hash": "7414e19511b2b99954a3898beed545401b79a571",
+  "report_commit": "ad2b555cf91d7d4250bbdb6f94b30fac07e3d512",
+  "solution_sha256": "1e533cbd5dbb17bb6ad52c7c80faa3a6abce587a32204ef5228de54da5b069e6",
+  "report_timestamp": "2026-09-29T22:09:07Z",
+  "final": false,
+  "separate_competition_submission_receipt": "not found; experiment ID is not evidence of competition acceptance"
+}

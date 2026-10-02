@@ -1,0 +1,11 @@
+{
+  "scope": "observed offline review runtime; original official runtime incompletely recorded",
+  "python_implementation": "CPython",
+  "python_version": "3.14.2",
+  "platform": "Linux-6.8.0-1064-azure-x86_64-with-glibc2.39",
+  "runtime_dependencies": [],
+  "official_hills_version": "0.11.0",
+  "official_hills_sha256": "970e4a3fcb74c27e0c56b62efd22b4fab82a755229a8aef8f90bbc00a9cfe275",
+  "public_hill_project_version": "0.1.0",
+  "public_hill_requires_python": ">=3.11"
+}
